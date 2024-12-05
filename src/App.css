@@ -1,0 +1,14 @@
+body {
+    background-image: url(./assets/undersea.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+/* Adjust background for mobile screens */
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll; /* Fix issues with "fixed" on some mobile browsers */
+    }
+}
