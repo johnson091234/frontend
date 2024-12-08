@@ -1,0 +1,9 @@
+.container {
+    text-align: center;
+}
+
+.card-body {
+    background-color: rgba(0, 240, 240, 0.15);
+    border: solid 2px  rgb(157, 58, 58);
+    
+}

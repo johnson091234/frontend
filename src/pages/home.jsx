@@ -1,15 +1,15 @@
 import React from 'react';
 import { Button, Container, Row, Col, Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import '../home.css';
 function Home() {
     return (
-        <Container className="text-center">
+        <Container className="container">
             {/* Welcome Section */}
             <Row className="justify-content-center mt-5">
                 <Col md={8} lg={6}>
                     <Card className="shadow-lg">
-                        <Card.Body>
+                        <Card.Body className='card-body'>
                             <Card.Title as="h1" className="mb-4">
                                 Welcome to My Website
                             </Card.Title>
